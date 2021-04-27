@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dialogue animated.unity
     guid: 797869c7968522a4ebffce8823236adf
+  - enabled: 1
+    path: Assets/Mini game TOAST.unity
+    guid: 62e9b0fba98a58d47842f0f834133945
+  - enabled: 1
+    path: Assets/Mini game 1.unity
+    guid: 48a985d404831174a8206e41acd6a5ca
   m_configObjects: {}
