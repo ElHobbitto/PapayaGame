@@ -20,7 +20,7 @@ public class LevelLoader : MonoBehaviour
         LoadingScreen.SetActive(true);
         while (!operation.isDone)
         {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
+            float progress = Mathf.Clamp01(operation.progress / .100f);
             slider.value = progress;
             Debug.Log(progress);
             yield return null;

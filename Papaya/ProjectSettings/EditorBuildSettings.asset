@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Loading Screen.unity
-    guid: 18fad3701b675c44db4708fb7d6e6363
+    path: Assets/Scenes/BUILD SCENES/Start of game.unity
+    guid: 9ff27eb1ae593bc41b1872e38afba71b
   - enabled: 1
-    path: Assets/Scenes/Dialogue animated.unity
-    guid: 797869c7968522a4ebffce8823236adf
-  - enabled: 1
-    path: Assets/Mini game TOAST.unity
+    path: Assets/Scenes/BUILD SCENES/Mini game TOAST.unity
     guid: 62e9b0fba98a58d47842f0f834133945
   - enabled: 1
-    path: Assets/Mini game 1.unity
-    guid: 48a985d404831174a8206e41acd6a5ca
+    path: Assets/Scenes/BUILD SCENES/MINI GAME SLICE.unity
+    guid: f530d23f4ea86f94db63797abc84cc14
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Gaelyn map send.unity
+    guid: 6b03881fe13ad684a9c4abce7bf8befc
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/CAP'N RECIPE AND BOOK complete.unity
+    guid: 64434d6cefae5ec429aca0a2434063ff
   m_configObjects: {}
