@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BUILD SCENES/CAP'N RECIPE AND BOOK complete.unity
     guid: 64434d6cefae5ec429aca0a2434063ff
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/To be continued.unity
+    guid: bcc66ee687efaac44af0723e9ddec9b6
   m_configObjects: {}

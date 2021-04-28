@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.582245, y: -16.174889}
+  m_AnchoredPosition: {x: -80.68224, y: -18.274887}
   m_SizeDelta: {x: 38.53052, y: 24.063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3575542892429327690
@@ -169,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -136.1764, y: -17.43789}
+  m_AnchoredPosition: {x: -132.2764, y: -19.537888}
   m_SizeDelta: {x: 38.53052, y: 24.063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3575542893796501981
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "INGREDIENTS\n1x elven bread \r\n2x hellfire mushroom \r\n2x night cheese
+  m_text: "Ingredients:\n1x elven bread \r\n2x hellfire mushroom \r\n2x night cheese
     \r\n1x cloud butter \r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -441,7 +441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -101, y: -9.4}
+  m_AnchoredPosition: {x: -97.1, y: -11.5}
   m_SizeDelta: {x: 108.88333, y: 40.1376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3575542894268262071
@@ -472,9 +472,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A very easy meal that served as the poor man''s dish during the recent
+  m_text: '"A very easy meal that served as the poor man''s dish during the recent
     war which has since caught on in even the upper classes - if not simply as a
-    quick late night snack
+    quick late night snack."
 
 
 '
