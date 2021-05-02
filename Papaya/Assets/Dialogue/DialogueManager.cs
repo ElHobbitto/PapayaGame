@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(sentences.Count == 0)
         {
+            
             EndDialogue();
             return;
         }
@@ -49,6 +50,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        animator.Play("achievement");
     }
 
     // Update is called once per frame
