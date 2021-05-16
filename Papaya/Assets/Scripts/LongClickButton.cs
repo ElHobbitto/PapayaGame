@@ -46,7 +46,7 @@ public class LongClickButton : MonoBehaviour , IPointerDownHandler ,IPointerUpHa
         pointerDown = false;
         pointerUp = false; 
         pointerDownTimer = 0; 
-       //LongClick.Invoke(); 
+       LongClick.Invoke(); 
          fillImage.fillAmount = pointerDownTimer / requiredHoldTime; 
     } 
 } 
