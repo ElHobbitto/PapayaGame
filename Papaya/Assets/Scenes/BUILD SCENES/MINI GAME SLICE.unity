@@ -701,6 +701,18 @@ MonoBehaviour:
           m_StringArgument: cut
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1629486543}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: bar disabled
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &275990301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1568,6 +1580,7 @@ MonoBehaviour:
   nameText: {fileID: 1272684390}
   dialogueText: {fileID: 1395386517}
   animator: {fileID: 830491565}
+  Bookopen: 0
 --- !u!4 &927391117
 Transform:
   m_ObjectHideFlags: 0
@@ -2449,6 +2462,7 @@ GameObject:
   - component: {fileID: 1629486542}
   - component: {fileID: 1629486541}
   - component: {fileID: 1629486540}
+  - component: {fileID: 1629486543}
   m_Layer: 5
   m_Name: game click (1)
   m_TagString: Untagged
@@ -2555,6 +2569,18 @@ MonoBehaviour:
           m_StringArgument: level continue
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 275990303}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: turn game off
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629486541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2593,6 +2619,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629486538}
   m_CullTransparentMesh: 0
+--- !u!95 &1629486543
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629486538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fcf1d2a8a6a0cb441be82c446b2a31ad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1778863981
 GameObject:
   m_ObjectHideFlags: 0

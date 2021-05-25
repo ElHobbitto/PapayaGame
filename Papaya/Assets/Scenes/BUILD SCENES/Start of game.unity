@@ -524,6 +524,8 @@ GameObject:
   - component: {fileID: 416010305}
   - component: {fileID: 416010304}
   - component: {fileID: 416010303}
+  - component: {fileID: 416010307}
+  - component: {fileID: 416010306}
   m_Layer: 5
   m_Name: RECIPE
   m_TagString: Untagged
@@ -644,6 +646,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416010301}
   m_CullTransparentMesh: 1
+--- !u!95 &416010306
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416010301}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 26a5f76c419fcb14aa2796ca69a1f00d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &416010307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416010301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8661ab5b69d42d45a280c9afb95def4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &482045202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,6 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927391117}
   - component: {fileID: 927391116}
+  - component: {fileID: 927391118}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -1249,6 +1283,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &927391118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927391115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab3258d6269fff4da019a41fbc37fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1044362160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8716679008601540814, guid: 1555905bcc5bbc8489cf3e566ca60aa2, type: 3}

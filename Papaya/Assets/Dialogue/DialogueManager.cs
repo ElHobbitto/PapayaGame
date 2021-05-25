@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    Dialogue currentDialogue;
+  
+    
+
     private Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +21,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartDialogue (Dialogue dialogue)
     {
-        
+        currentDialogue = dialogue;
         animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         sentences.Clear();
@@ -49,8 +54,13 @@ public class DialogueManager : MonoBehaviour
     }
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
-        animator.Play("achievement");
+        //animator.SetBool("IsOpen", false);
+        //animator.Play("achievement");
+        //Bookopen = true;
+        //animator.Play("on");
+        
+        Debug.Log("book");
+        PapayaEvents.Fire("OnDialogueEnd", currentDialogue);
     }
 
     // Update is called once per frame
