@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/BUILD SCENES/Start of game.unity
     guid: 9ff27eb1ae593bc41b1872e38afba71b
   - enabled: 1
-    path: Assets/Scenes/BUILD SCENES/Mini game TOAST.unity
-    guid: 62e9b0fba98a58d47842f0f834133945
+    path: Assets/Scenes/BUILD SCENES/toasted minigame UPDATE.unity
+    guid: ae90ef52493803041b7b4322854104ea
   - enabled: 1
     path: Assets/Scenes/BUILD SCENES/MINI GAME SLICE.unity
     guid: f530d23f4ea86f94db63797abc84cc14
@@ -26,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BUILD SCENES/To be continued.unity
     guid: bcc66ee687efaac44af0723e9ddec9b6
-  - enabled: 1
-    path: Assets/Scenes/BUILD SCENES/toasted minigame UPDATE.unity
-    guid: ae90ef52493803041b7b4322854104ea
   m_configObjects: {}
