@@ -548,11 +548,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1275,17 +1275,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 46
+    m_MinSize: 0
+    m_MaxSize: 80
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: YOU WIN
 --- !u!222 &671462049
@@ -1580,7 +1580,6 @@ MonoBehaviour:
   nameText: {fileID: 1272684390}
   dialogueText: {fileID: 1395386517}
   animator: {fileID: 830491565}
-  Bookopen: 0
 --- !u!4 &927391117
 Transform:
   m_ObjectHideFlags: 0
@@ -2094,7 +2093,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: Dialogue animated
           m_BoolArgument: 0
@@ -2214,11 +2213,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2242,6 +2241,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1974796939}
     m_Modifications:
+    - target: {fileID: 5540544510494147115, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544510494147115, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5540544510551683767, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2249,6 +2256,38 @@ PrefabInstance:
     - target: {fileID: 5540544510551683767, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5540544511670724486, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_Pivot.x
@@ -2845,17 +2884,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 46
+    m_MinSize: 8
+    m_MaxSize: 80
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: YOU FAIL
 --- !u!222 &1884665615
@@ -3262,7 +3301,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: Dialogue animated
           m_BoolArgument: 0
@@ -3564,19 +3603,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8422190236972050978, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17
+      value: 19.2
       objectReference: {fileID: 0}
     - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.24735
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.99415857
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5153692
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1569
+      value: -0.0903
       objectReference: {fileID: 0}
     - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0366
+      value: 0.0122
       objectReference: {fileID: 0}
     - target: {fileID: 8422190237555937865, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3610,6 +3661,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8422190237555937866, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8507108a3c26cb846b8b74c9ceb71e54, type: 3}
     - target: {fileID: 8422190237555937867, guid: 32a7015c29f1cc94cbb16a5f40308d4a, type: 3}
       propertyPath: m_Name
       value: Cooking_game_background_blurred

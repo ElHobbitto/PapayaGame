@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BUILD SCENES/Start of game.unity
     guid: 9ff27eb1ae593bc41b1872e38afba71b
   - enabled: 1
+    path: Assets/catch update.unity
+    guid: e2b550837506d2c4bbd3d4f698ad604c
+  - enabled: 1
     path: Assets/Scenes/BUILD SCENES/toasted minigame UPDATE.unity
     guid: ae90ef52493803041b7b4322854104ea
   - enabled: 1
@@ -20,10 +23,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BUILD SCENES/Gaelyn map send.unity
     guid: 6b03881fe13ad684a9c4abce7bf8befc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BUILD SCENES/CAP'N RECIPE AND BOOK complete.unity
     guid: 64434d6cefae5ec429aca0a2434063ff
   - enabled: 1
     path: Assets/Scenes/BUILD SCENES/To be continued.unity
     guid: bcc66ee687efaac44af0723e9ddec9b6
+  - enabled: 1
+    path: Assets/catch 2.0.unity
+    guid: 9d707ab451b76c74096f10a18ba68f84
+  - enabled: 1
+    path: Assets/Catch level 3.unity
+    guid: 625687329beea044fbb7a4ac20ee1ae5
+  - enabled: 1
+    path: Assets/win LEVEL 3.unity
+    guid: 6c3094267b4131542b99c35730ccab53
+  - enabled: 1
+    path: Assets/win LEVEL 2.unity
+    guid: 8dae33e5c3d99814e893c5871431a371
+  - enabled: 1
+    path: Assets/win LEVEL 1.unity
+    guid: d0e508b9b9547ff4cb0172c6d9a7ec62
+  - enabled: 1
+    path: Assets/Game over.unity
+    guid: c58f534115ffd6a47a95436e18911165
   m_configObjects: {}

@@ -328,7 +328,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wait for bread to toast
+  m_Text: click and hold White circle to toast Bread
 --- !u!222 &187401243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -407,11 +407,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -594,11 +594,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -606,9 +606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Next Step
-
-'
+  m_Text: YOU WIN
 --- !u!222 &286856450
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1314,6 +1312,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 273260121}
     m_Modifications:
+    - target: {fileID: 5540544510494147115, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544510494147115, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510494147115, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5540544510551683767, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1321,6 +1331,30 @@ PrefabInstance:
     - target: {fileID: 5540544510551683767, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544510590045688, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540544511299349456, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5540544511670724486, guid: dfc01c38bc231d647988ea5566ac75b4, type: 3}
       propertyPath: m_Pivot.x
@@ -1683,7 +1717,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1968,7 +2002,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SPAWNABLE
+  - DEATH
+  - CHEF
+  - X
+  - Bad food
+  - Good food
   layers:
   - Default
   - TransparentFX
