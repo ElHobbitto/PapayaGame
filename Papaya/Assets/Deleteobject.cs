@@ -21,7 +21,7 @@ public class Deleteobject : MonoBehaviour
     {
         if(other.CompareTag("DEATH"))
         {
-            Debug.Log("TEN");
+            //Debug.Log("TEN");
         Destroy(this.gameObject);
         
         
