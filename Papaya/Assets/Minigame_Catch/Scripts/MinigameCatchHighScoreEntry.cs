@@ -9,6 +9,7 @@ public class MinigameCatchHighScoreEntry : MonoBehaviour
     public MinigameHighScores highscoreData;
     public Text scoreText;
     public GameObject highScoreRoot;
+    public InputField nameinput;
 
     string hs_name;
     int hs_score;
@@ -39,6 +40,7 @@ public class MinigameCatchHighScoreEntry : MonoBehaviour
         if (highscoreData.IsScoreHighEnough(score))
         {
             highScoreRoot.SetActive(true);
+            nameinput.Select();
         }
     }
 

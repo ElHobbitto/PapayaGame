@@ -1095,6 +1095,7 @@ MonoBehaviour:
   highscoreData: {fileID: 11400000, guid: 4e28ec441a71815499f08ba6ce089ed3, type: 2}
   scoreText: {fileID: 1037322351}
   highScoreRoot: {fileID: 731058122}
+  nameinput: {fileID: 1394541809}
 --- !u!4 &1338707194
 Transform:
   m_ObjectHideFlags: 0
