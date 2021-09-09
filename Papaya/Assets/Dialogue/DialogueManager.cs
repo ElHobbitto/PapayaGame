@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     public Animator animator;
     Dialogue currentDialogue;
+    public Expressions expressionManager;
   
     
 
@@ -40,6 +41,25 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
+
+        //split out any expression markup
+        string[] bits = sentence.Split('|');
+        if (bits.Length >= 2)
+        {
+            for (int i = 0; i < bits.Length-1; i++)
+            {
+                //expressions is bits[0]
+                string[] expressions = bits[i].Split(':');
+                string charname = expressions[0].Trim();
+                string expressionname = expressions[1].Trim();
+                if (expressionManager!=null)
+                {
+                    expressionManager.SetCharacterExpression(charname, expressionname);
+                }
+            }
+            
+            sentence = bits[bits.Length-1];
+        }
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }

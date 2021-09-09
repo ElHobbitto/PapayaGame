@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 34711508}
   - component: {fileID: 34711512}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: GaelynButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,14 +178,16 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - 'Gaelyn: ...PAYA!'
-    - 'Gaelyn: PAPAYA!'
-    - 'Gaelyn: Papaya! what have i told you about daydreaming you godsdamned lemon!'
-    - 'Papaya: Sorry Gaelyn, the pastry just smelt so good!'
-    - 'Gaelyn: Dragonborn, I Swear . . . '
-    - "Gaelyn: Pay attention this time, I\u2019m not going to repeat myself on how
-      to properly craft a Hellfire mushroom and cheese toastie again."
-    - 'Gaelyn: Now open up the Recipe book and take notes.'
+    - 'Gaelyn:Miffed|Papaya:Thinking|Gaelyn: ...PAYA!'
+    - 'Gaelyn:Cross|Papaya:Embarrassed|Gaelyn: PAPAYA!'
+    - 'Gaelyn:Cross|Papaya:Blushing|Gaelyn: Papaya! what have i told you about daydreaming
+      you godsdamned lemon!'
+    - 'Gaelyn:Miffed|Papaya:BlushingLess|Papaya: Sorry Gaelyn, the pastry just smelt
+      so good!'
+    - 'Gaelyn:Annoyed|Papaya:Sad|Gaelyn: Dragonborn, I Swear . . . '
+    - "Gaelyn:Miffed|Gaelyn: Pay attention this time, I\u2019m not going to repeat
+      myself on how to properly craft a Hellfire mushroom and cheese toastie again."
+    - 'Papaya:Thinking|Gaelyn: Now open up the Recipe book and take notes.'
 --- !u!114 &34711509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +254,30 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: OFF
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1438601243}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &34711510
@@ -461,7 +487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 759696829700124272, guid: 16d65426e2f4d78448274385f43e8930, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 759696829700124272, guid: 16d65426e2f4d78448274385f43e8930, type: 3}
       propertyPath: m_AnchorMax.x
@@ -704,7 +730,7 @@ GameObject:
   - component: {fileID: 482045205}
   - component: {fileID: 482045204}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PapayaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1357,6 +1383,7 @@ MonoBehaviour:
   nameText: {fileID: 1272684390}
   dialogueText: {fileID: 1395386517}
   animator: {fileID: 830491565}
+  expressionManager: {fileID: 2114413777}
 --- !u!4 &927391117
 Transform:
   m_ObjectHideFlags: 0
@@ -1369,7 +1396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &927391118
 MonoBehaviour:
@@ -1425,6 +1452,11 @@ MonoBehaviour:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 759696829700124275, guid: 16d65426e2f4d78448274385f43e8930, type: 3}
   m_PrefabInstance: {fileID: 307805622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1438601243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7576542490862267249, guid: ca91aa3c32025344ca2ec755e7a35722, type: 3}
+  m_PrefabInstance: {fileID: 7576542489900416308}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1526328139
 GameObject:
@@ -2161,7 +2193,7 @@ RectTransform:
   - {fileID: 1784132323}
   - {fileID: 1996383904}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2305,6 +2337,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051832603}
   m_CullTransparentMesh: 0
+--- !u!1 &2114413776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2114413778}
+  - component: {fileID: 2114413777}
+  m_Layer: 0
+  m_Name: ExpressionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2114413777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114413776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205db76a54750c74597462be64eb9cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterExpressions:
+  - characterName: Gaelyn
+    uiImageToChange: {fileID: 34711510}
+    expressions:
+    - name: Base
+      image: {fileID: 21300000, guid: 849bde5e45d7dde41b7e7cd7ceb42282, type: 3}
+    - name: Happy
+      image: {fileID: 21300000, guid: 864a40fb8820df3499faba5c63c6dcfd, type: 3}
+    - name: Embarrassed
+      image: {fileID: 21300000, guid: 9fefe2c8cf74f5349a39434779be06ee, type: 3}
+    - name: EmbarrassedLess
+      image: {fileID: 21300000, guid: 92bb969ba982f5c4c8e80ba1711c7e45, type: 3}
+    - name: Sad
+      image: {fileID: 21300000, guid: 009b0a62be8e225448a0cca3e7a4ffb0, type: 3}
+    - name: Unhappy
+      image: {fileID: 21300000, guid: da949e2c480479f4e92a75eaa81478a0, type: 3}
+    - name: Annoyed
+      image: {fileID: 21300000, guid: a6d5e9e9c1b04064e87dc201673bafc3, type: 3}
+    - name: ReallyAnnoyed
+      image: {fileID: 21300000, guid: 84f76bb58a7629b4a82649605d2d45e1, type: 3}
+    - name: Miffed
+      image: {fileID: 21300000, guid: 104cdc47d4a8bdd4c9458822878f97f7, type: 3}
+    - name: Cross
+      image: {fileID: 21300000, guid: ed6e9d0aaba46c545a8cee2d07d9a01c, type: 3}
+    - name: HellaCross
+      image: {fileID: 21300000, guid: cda82edcce8b3b64f8d6cefad2b00422, type: 3}
+  - characterName: Papaya
+    uiImageToChange: {fileID: 482045206}
+    expressions:
+    - name: Determined
+      image: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
+    - name: Happy
+      image: {fileID: 21300000, guid: 11eefb536d729b0498d8d95d142bc2fd, type: 3}
+    - name: Embarrassed
+      image: {fileID: 21300000, guid: 1d2aa742852d37f4c96e79f434566435, type: 3}
+    - name: Blushing
+      image: {fileID: 21300000, guid: d9a6dd11986c12d4488688a8b3962521, type: 3}
+    - name: BlushingLess
+      image: {fileID: 21300000, guid: 248bb6b9d8c28f248a41bd90eb68651f, type: 3}
+    - name: EmbarrassedLess
+      image: {fileID: 21300000, guid: 1055ea27bea41a847a78cbd16e00fb1b, type: 3}
+    - name: Sad
+      image: {fileID: 21300000, guid: 20261f6f35bce0648937194f2d8cf74c, type: 3}
+    - name: Annoyed
+      image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
+    - name: Thinking
+      image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
+--- !u!4 &2114413778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114413776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2116835320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,6 +2987,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7576542490862267249, guid: ca91aa3c32025344ca2ec755e7a35722, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7576542490862267250, guid: ca91aa3c32025344ca2ec755e7a35722, type: 3}
       propertyPath: m_SizeDelta.x
       value: 108.5768
@@ -2900,7 +3026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8716679008601540812, guid: 1555905bcc5bbc8489cf3e566ca60aa2, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8716679008601540812, guid: 1555905bcc5bbc8489cf3e566ca60aa2, type: 3}
       propertyPath: m_LocalPosition.x

@@ -17,7 +17,7 @@ public class MinigameCatcherChef : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AddScore(7000);
+        AddScore(0);
     }
 
     // Update is called once per frame
