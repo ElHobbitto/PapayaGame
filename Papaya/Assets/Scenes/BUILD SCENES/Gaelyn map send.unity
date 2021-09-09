@@ -339,7 +339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &36853348
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1202,6 +1202,7 @@ MonoBehaviour:
   nameText: {fileID: 1272684390}
   dialogueText: {fileID: 1395386517}
   animator: {fileID: 830491565}
+  expressionManager: {fileID: 0}
 --- !u!4 &927391117
 Transform:
   m_ObjectHideFlags: 0
@@ -1529,8 +1530,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.98, y: -30.643}
-  m_SizeDelta: {x: 450.0407, y: 139.073}
+  m_AnchoredPosition: {x: -14.925793, y: -30.643}
+  m_SizeDelta: {x: 409.5184, y: 139.073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1395386517
 MonoBehaviour:
@@ -1554,7 +1555,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
-    m_FontSize: 25
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2388,7 +2389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6448456599869568823, guid: f6697af092a13544eb11f77f3ce3df5a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448456600025610358, guid: f6697af092a13544eb11f77f3ce3df5a, type: 3}
       propertyPath: m_IsActive
@@ -2433,7 +2434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980941092944420924, guid: f798fa78138d736488010a62386525b5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7980941093761546274, guid: f798fa78138d736488010a62386525b5, type: 3}
       propertyPath: m_Color.a
@@ -2593,7 +2594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980941093870194398, guid: f798fa78138d736488010a62386525b5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7980941094377482041, guid: f798fa78138d736488010a62386525b5, type: 3}
       propertyPath: m_Sprite
@@ -2621,7 +2622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980941094377482044, guid: f798fa78138d736488010a62386525b5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f798fa78138d736488010a62386525b5, type: 3}
