@@ -208,4 +208,5 @@ MonoBehaviour:
   plate: {fileID: 4378497402063438103}
   spawner: {fileID: 0}
   scoreText: {fileID: 0}
-  sceneToLoadOnLose: Game over
+  sceneToLoadOnLose: Minigame_Catch_New_HighScore
+  highScores: {fileID: 11400000, guid: 4e28ec441a71815499f08ba6ce089ed3, type: 2}

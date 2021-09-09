@@ -672,7 +672,7 @@ MonoBehaviour:
     levels:
     - levelName: Level 1
       activationScore: 0
-      foodMoveSpeed: 0.01
+      foodMoveSpeed: 1
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -682,7 +682,7 @@ MonoBehaviour:
         maxSpawnTime: 10
     - levelName: Level 2
       activationScore: 1000
-      foodMoveSpeed: 0.02
+      foodMoveSpeed: 2
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -692,7 +692,7 @@ MonoBehaviour:
         maxSpawnTime: 3
     - levelName: Level 3
       activationScore: 2500
-      foodMoveSpeed: 0.032
+      foodMoveSpeed: 3
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
         maxSpawnTime: 7
     - levelName: Level 4
       activationScore: 4000
-      foodMoveSpeed: 0.04
+      foodMoveSpeed: 4
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -712,7 +712,7 @@ MonoBehaviour:
         maxSpawnTime: 5
     - levelName: Level 5
       activationScore: 5500
-      foodMoveSpeed: 0.06
+      foodMoveSpeed: 6
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -722,7 +722,7 @@ MonoBehaviour:
         maxSpawnTime: 3
     - levelName: Level 6
       activationScore: 7500
-      foodMoveSpeed: 0.075
+      foodMoveSpeed: 7.5
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0

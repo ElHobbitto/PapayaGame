@@ -8,6 +8,11 @@ public class LevelLoader : MonoBehaviour
     public GameObject LoadingScreen;
     public Slider slider;
 
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void LoadLevel(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));

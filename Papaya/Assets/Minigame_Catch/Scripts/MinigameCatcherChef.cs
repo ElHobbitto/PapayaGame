@@ -13,6 +13,7 @@ public class MinigameCatcherChef : MonoBehaviour
     public IngredientsSpawner spawner;
     public Text scoreText;
     public string sceneToLoadOnLose = "Game over";
+    public MinigameHighScores highScores;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +43,8 @@ public class MinigameCatcherChef : MonoBehaviour
         else if (other.gameObject.CompareTag("Bad food"))
         {
             SceneManager.LoadScene(sceneToLoadOnLose);
+            //Debug.Log("Oldscene reading  " + highScores.lastScore + " out of score data");
+            
         }
     }
 
@@ -64,5 +67,7 @@ public class MinigameCatcherChef : MonoBehaviour
         score += amount;
         scoreText.text = "Score: " + score;
         spawner.AdviseScore(score); //tell the spawner the score
+        MinigameHighScores.lastScore = score;
+        
     }
 }
