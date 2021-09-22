@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/Main Menu.unity
+    guid: a635acbc61d36df428af1e664ed3d24a
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/Start of game.unity
+    guid: 9ff27eb1ae593bc41b1872e38afba71b
+  - enabled: 1
+    path: Assets/Minigame_Catch/Minigame_Catch.unity
+    guid: fc0e37b6875dfad4ab260381825d219c
+  - enabled: 1
+    path: Assets/Minigame_Catch/Minigame_Catch_New_HighScore.unity
+    guid: 60aa22200872d4f4b8b5f31961522532
+  - enabled: 1
+    path: Assets/Minigame_Catch/Minigame_Catch_GameOver.unity
+    guid: a861703fa6518be42be3fe9049d50b3c
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/tut1.unity
+    guid: 674c703fb5459df499f93233381d73dd
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/Intro.unity
+    guid: a26204a350115474c8fe772b2dcbe09d
   m_configObjects: {}

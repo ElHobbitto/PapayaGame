@@ -551,8 +551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673035078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0257, y: -0.0498, z: 0}
-  m_LocalScale: {x: 1.2471302, y: 0.992484, z: 0.60145444}
+  m_LocalPosition: {x: 0.0257, y: 0.1187, z: 0}
+  m_LocalScale: {x: 1.2471302, y: 1.0257322, z: 0.60145444}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -659,16 +659,19 @@ MonoBehaviour:
     - name: goodfood
       items:
       - {fileID: 6556764327202091665, guid: ae1c8eb4b3af75f47bc50b05a4e02983, type: 3}
-      - {fileID: 6556764327202091665, guid: 1b45834a535713c45b60a496ad6a2457, type: 3}
+      - {fileID: 6556764327202091665, guid: 0f1197c2dafbd9246990e0e786135af1, type: 3}
       - {fileID: 6556764327202091665, guid: 4077cfb5b12690f46812807b0bf754dd, type: 3}
-      - {fileID: 6556764327202091665, guid: 6394f6f558d347746b259d482dcdbfd2, type: 3}
-      - {fileID: 6556764327202091665, guid: 5eb7feeeaf78e2d4cb6c7f4054359f71, type: 3}
-      - {fileID: 6556764327202091665, guid: b20efcb4facf08846bc1b9b571271d39, type: 3}
+      - {fileID: 6556764327202091665, guid: 1a64e9d85bda9f7448eabfd3c220d9f6, type: 3}
+      - {fileID: 6556764327202091665, guid: fd2af489b6cae68429427773cf4927cd, type: 3}
+      - {fileID: 6556764327202091665, guid: c54f49f413ed5434fa1d27a08d686313, type: 3}
+      - {fileID: 6556764327202091665, guid: 460a0169f7968074ab99e1f260a2949f, type: 3}
     - name: badfood
       items:
-      - {fileID: 6556764327202091665, guid: 2538120dfe17f3a42a121ab05f7bb9b7, type: 3}
+      - {fileID: 6556764327202091665, guid: b0627100fdc13d046a188fd7fc0e9ce6, type: 3}
       - {fileID: 6556764327202091665, guid: 838a25f6543e83e428ca7ced4a0e733a, type: 3}
-      - {fileID: 6556764327202091665, guid: 1739e516393f65d4dafa5368a19eb9a0, type: 3}
+      - {fileID: 6556764327202091665, guid: 61c957fa8775d8249bc160690cca4fa0, type: 3}
+      - {fileID: 6556764327202091665, guid: 77088bb7cfb30f049b7f9214fee49d31, type: 3}
+      - {fileID: 6556764327202091665, guid: b94a11d7fb7f02d41a0057e3caf3be8d, type: 3}
     levels:
     - levelName: Level 1
       activationScore: 0
@@ -678,7 +681,7 @@ MonoBehaviour:
         minSpawnTime: 0
         maxSpawnTime: 3
       - foodClassName: badfood
-        minSpawnTime: 9
+        minSpawnTime: 5
         maxSpawnTime: 10
     - levelName: Level 2
       activationScore: 1000
@@ -688,48 +691,98 @@ MonoBehaviour:
         minSpawnTime: 0
         maxSpawnTime: 3
       - foodClassName: badfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
+        minSpawnTime: 2.5
+        maxSpawnTime: 5
     - levelName: Level 3
       activationScore: 2500
-      foodMoveSpeed: 3
-      spawnerParams:
-      - foodClassName: goodfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
-      - foodClassName: badfood
-        minSpawnTime: 5
-        maxSpawnTime: 7
-    - levelName: Level 4
-      activationScore: 4000
       foodMoveSpeed: 4
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
         maxSpawnTime: 3
       - foodClassName: badfood
-        minSpawnTime: 3
-        maxSpawnTime: 5
-    - levelName: Level 5
-      activationScore: 5500
+        minSpawnTime: 1.25
+        maxSpawnTime: 2.5
+    - levelName: Level 4
+      activationScore: 4000
       foodMoveSpeed: 6
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
         maxSpawnTime: 3
       - foodClassName: badfood
-        minSpawnTime: 2
+        minSpawnTime: 0.625
+        maxSpawnTime: 1.25
+    - levelName: Level 5
+      activationScore: 5000
+      foodMoveSpeed: 8
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
         maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0.3175
+        maxSpawnTime: 0.625
     - levelName: Level 6
-      activationScore: 7500
-      foodMoveSpeed: 7.5
+      activationScore: 6000
+      foodMoveSpeed: 10
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
         maxSpawnTime: 3
       - foodClassName: badfood
         minSpawnTime: 0
-        maxSpawnTime: 2
+        maxSpawnTime: 0.5
+    - levelName: Level 7
+      activationScore: 7000
+      foodMoveSpeed: 12
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 0.5
+    - levelName: Level 8
+      activationScore: 8000
+      foodMoveSpeed: 14
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 0.25
+    - levelName: Level 9
+      activationScore: 9000
+      foodMoveSpeed: 16
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 0.125
+    - levelName: Level 10
+      activationScore: 10000
+      foodMoveSpeed: 18
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 0.125
+    - levelName: Level 11
+      activationScore: 11000
+      foodMoveSpeed: 20
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 0.125
     pointsPerFood: 100
 --- !u!4 &1640969184
 Transform:
