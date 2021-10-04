@@ -50,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 565, y: 410, z: 1037, w: 695}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -109,10 +109,10 @@ TextureImporter:
       name: CoverMinigame_0
       rect:
         serializedVersion: 2
-        x: 559
-        y: 403
-        width: 459
-        height: 182
+        x: 533
+        y: 410
+        width: 490
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,7 +129,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 69baed6848f9d244981d139f8737136a
     internalID: 0
     vertices: []
     indices: 

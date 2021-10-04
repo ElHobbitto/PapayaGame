@@ -5,6 +5,21 @@ TextureImporter:
   - first:
       213: 7485757364759647335
     second: CoverPlay_0
+  - first:
+      213: 5707300984954026693
+    second: CoverPlay_1
+  - first:
+      213: 8610206731814440358
+    second: CoverPlay_2
+  - first:
+      213: 4344103506818984580
+    second: CoverPlay_3
+  - first:
+      213: 5058080752482067422
+    second: CoverPlay_4
+  - first:
+      213: 3095891366646761909
+    second: CoverPlay_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,10 +124,10 @@ TextureImporter:
       name: CoverPlay_0
       rect:
         serializedVersion: 2
-        x: 250
-        y: 319
-        width: 178
-        height: 204
+        x: 267
+        y: 438
+        width: 35
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +141,115 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CoverPlay_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 437
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cafb6ad108643f40800000000000000
+      internalID: 5707300984954026693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverPlay_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 438
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad0a7c57699d7770800000000000000
+      internalID: 8610206731814440358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverPlay_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 437
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a69779f1b594c30800000000000000
+      internalID: 4344103506818984580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverPlay_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 336
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed32fe045a9e13640800000000000000
+      internalID: 5058080752482067422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverPlay_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 315
+        width: 193
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9cd249bc0d6fa20800000000000000
+      internalID: 3095891366646761909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9b786f274e3104b49ba1ca6eb70511f3
+    spriteID: 75ae5091cc148014d903c5bd326ddda3
     internalID: 0
     vertices: []
     indices: 
