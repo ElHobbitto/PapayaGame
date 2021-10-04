@@ -12,26 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ad8a67679fc444cb7638127e3e9c93, type: 3}
   m_Name: MinigameCatch_HighscoreData
   m_EditorClassIdentifier: 
-  numScores: 10
+  numScores: 7
   inspectorScores:
   - name: AAA
+    score: 500
+  - name: AAA
+    score: 400
+  - name: AAA
+    score: 300
+  - name: AAA
+    score: 200
+  - name: AAA
     score: 100
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
-  - name: 
-    score: 0
   - name: AAA
     score: 75
-  lastScore: 0
+  - name: AAA
+    score: 60

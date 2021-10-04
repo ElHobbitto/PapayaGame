@@ -722,7 +722,47 @@ MonoBehaviour:
         maxSpawnTime: 3
     - levelName: Level 6
       activationScore: 7500
-      foodMoveSpeed: 7.5
+      foodMoveSpeed: 8
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 2
+    - levelName: Level 7
+      activationScore: 8500
+      foodMoveSpeed: 9
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 2
+    - levelName: Level 8
+      activationScore: 10000
+      foodMoveSpeed: 10
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 2
+    - levelName: Level 9
+      activationScore: 12000
+      foodMoveSpeed: 11
+      spawnerParams:
+      - foodClassName: goodfood
+        minSpawnTime: 0
+        maxSpawnTime: 3
+      - foodClassName: badfood
+        minSpawnTime: 0
+        maxSpawnTime: 2
+    - levelName: Level 10
+      activationScore: 15000
+      foodMoveSpeed: 12
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -953,8 +993,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ee9a2b13fb86eb44089aaaf1e48bbc19, type: 3}
-    m_FontSize: 103
+    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
+    m_FontSize: 139
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
