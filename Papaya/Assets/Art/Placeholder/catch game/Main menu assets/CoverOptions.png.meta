@@ -109,10 +109,10 @@ TextureImporter:
       name: CoverOptions_0
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 356
-        width: 249
-        height: 253
+        x: 1614
+        y: 374
+        width: 273
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

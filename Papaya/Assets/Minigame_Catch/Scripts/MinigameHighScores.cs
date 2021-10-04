@@ -1,12 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 [System.Serializable]
 public class MinigameHighscore
 {
     public string name;
     public int score;
+}
+
+[System.Serializable]
+public class MinigameHighScoreSaveData
+{
+    public MinigameHighscore[] scores;
 }
 
 
@@ -16,9 +23,11 @@ public class MinigameHighScores : ScriptableObject
 {
     public int numScores = 10;
     public MinigameHighscore[] inspectorScores;
+    //static LinkedList<MinigameHighscore> static_scorelist;
     LinkedList<MinigameHighscore> scores;
     [SerializeField]
     static public int lastScore;
+    string saveFilename = "papaya.json";
 
     void OnEnable()
     {
@@ -26,28 +35,66 @@ public class MinigameHighScores : ScriptableObject
         //deserialise the scores?
         if (scores == null)
         {    
-            scores = new LinkedList<MinigameHighscore>();
-        
-            if (inspectorScores != null)
-            {
-                foreach (MinigameHighscore inspectorscore in inspectorScores)
-                {
-                    if (inspectorscore.score > 0)
-                    {
-                        AddScore(inspectorscore.name, inspectorscore.score);
-                    }
-                }
-            }
+            Debug.Log("Reinitialising scores");
+            MinigameHighScoreSaveData loadedScores = LoadScores(saveFilename);
+            if (loadedScores != null)
+                InitScores(loadedScores.scores);
             else
-            {
-                inspectorScores = new MinigameHighscore[numScores];
-            }
+                InitScores(null);
         }
     }
 
-    public void Save()
+    public void SaveScores(string saveFileName)
     {
+        MinigameHighScoreSaveData savescores = new MinigameHighScoreSaveData();
+        savescores.scores = inspectorScores;
+        string dataAsJson = JsonUtility.ToJson(savescores);
+        string filePath = Path.Combine(Application.streamingAssetsPath, saveFileName);
+        File.WriteAllText (filePath, dataAsJson);
+    }
 
+    public MinigameHighScoreSaveData LoadScores(string saveFileName)
+    {
+        MinigameHighScoreSaveData loadedData = null;
+        string filePath = Path.Combine(Application.streamingAssetsPath, saveFileName);
+        if(File.Exists(filePath))
+        {
+            // Read the json from the file into a string
+            string dataAsJson = File.ReadAllText(filePath); 
+            // Pass the json to JsonUtility, and tell it to create a GameData object from it
+            loadedData = JsonUtility.FromJson<MinigameHighScoreSaveData>(dataAsJson);
+        }
+        else
+        {
+            Debug.LogError("Cannot load game data!");
+        }
+        return loadedData;
+        
+    }
+
+    public void InitScores(MinigameHighscore[] loadedScores)
+    {
+        scores = new LinkedList<MinigameHighscore>();
+        if (loadedScores != null)
+        {
+            inspectorScores = loadedScores;
+        }
+            
+        if (inspectorScores != null)
+        {
+            foreach (MinigameHighscore inspectorscore in inspectorScores)
+            {
+                if (inspectorscore.score > 0)
+                {
+                    AddScore(inspectorscore.name, inspectorscore.score);
+                }
+            }
+        }
+        else
+        {
+            inspectorScores = new MinigameHighscore[numScores];
+        }
+        SaveScores(saveFilename);
     }
 
     public bool IsScoreHighEnough(int score)
@@ -122,7 +169,6 @@ public class MinigameHighScores : ScriptableObject
 
         //inspectorScores = new MinigameHighscore[numScores];
         scores.CopyTo(inspectorScores, 0);
-
         return retval;
     }
 
@@ -131,7 +177,16 @@ public class MinigameHighScores : ScriptableObject
         //MinigameHighscore[] scoresarray = new MinigameHighscore[numScores];
         //scores.CopyTo(scoresarray, 0);
         //return scoresarray;
-        return inspectorScores;
+        SaveScores(saveFilename);
+        MinigameHighScoreSaveData load = LoadScores(saveFilename);
+        if (load != null)
+        {
+            return load.scores;
+        }
+        else
+        {
+            return inspectorScores;
+        }
     }
 
     MinigameHighscore FindLowestScore()

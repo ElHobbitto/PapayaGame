@@ -551,8 +551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673035078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0257, y: -0.0498, z: 0}
-  m_LocalScale: {x: 1.2471302, y: 0.992484, z: 0.60145444}
+  m_LocalPosition: {x: 0.0257, y: 0.1187, z: 0}
+  m_LocalScale: {x: 1.2471302, y: 1.0257322, z: 0.60145444}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -722,47 +722,7 @@ MonoBehaviour:
         maxSpawnTime: 3
     - levelName: Level 6
       activationScore: 7500
-      foodMoveSpeed: 8
-      spawnerParams:
-      - foodClassName: goodfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
-      - foodClassName: badfood
-        minSpawnTime: 0
-        maxSpawnTime: 2
-    - levelName: Level 7
-      activationScore: 8500
-      foodMoveSpeed: 9
-      spawnerParams:
-      - foodClassName: goodfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
-      - foodClassName: badfood
-        minSpawnTime: 0
-        maxSpawnTime: 2
-    - levelName: Level 8
-      activationScore: 10000
-      foodMoveSpeed: 10
-      spawnerParams:
-      - foodClassName: goodfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
-      - foodClassName: badfood
-        minSpawnTime: 0
-        maxSpawnTime: 2
-    - levelName: Level 9
-      activationScore: 12000
-      foodMoveSpeed: 11
-      spawnerParams:
-      - foodClassName: goodfood
-        minSpawnTime: 0
-        maxSpawnTime: 3
-      - foodClassName: badfood
-        minSpawnTime: 0
-        maxSpawnTime: 2
-    - levelName: Level 10
-      activationScore: 15000
-      foodMoveSpeed: 12
+      foodMoveSpeed: 7.5
       spawnerParams:
       - foodClassName: goodfood
         minSpawnTime: 0
@@ -993,8 +953,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fd33b15a834314c429823948529a7289, type: 3}
-    m_FontSize: 139
+    m_Font: {fileID: 12800000, guid: ee9a2b13fb86eb44089aaaf1e48bbc19, type: 3}
+    m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1077,5 +1037,9 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 2001492250}
+    - target: {fileID: 4378497402443199957, guid: 5fb7442e55ba4ec4c8e3d3313ba68e74, type: 3}
+      propertyPath: bonusPrefab
+      value: 
+      objectReference: {fileID: 677589068299330852, guid: de2c977f24d2302488877284a901b8c2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fb7442e55ba4ec4c8e3d3313ba68e74, type: 3}

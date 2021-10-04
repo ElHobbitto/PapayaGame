@@ -109,10 +109,10 @@ TextureImporter:
       name: CoverPlay_0
       rect:
         serializedVersion: 2
-        x: 133
-        y: 166
-        width: 80
-        height: 92
+        x: 250
+        y: 319
+        width: 178
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,7 +129,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9b786f274e3104b49ba1ca6eb70511f3
     internalID: 0
     vertices: []
     indices: 
