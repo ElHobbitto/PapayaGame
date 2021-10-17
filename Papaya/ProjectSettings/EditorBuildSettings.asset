@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/2.0 Build/Main Menu.unity
     guid: a635acbc61d36df428af1e664ed3d24a
   - enabled: 1
+    path: Assets/Scenes/2.0 Build/Intro.unity
+    guid: a26204a350115474c8fe772b2dcbe09d
+  - enabled: 1
     path: Assets/Scenes/2.0 Build/Start of game.unity
     guid: 9ff27eb1ae593bc41b1872e38afba71b
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/tut1.unity
+    guid: 674c703fb5459df499f93233381d73dd
   - enabled: 1
     path: Assets/Minigame_Catch/Minigame_Catch.unity
     guid: fc0e37b6875dfad4ab260381825d219c
@@ -21,9 +27,21 @@ EditorBuildSettings:
     path: Assets/Minigame_Catch/Minigame_Catch_GameOver.unity
     guid: a861703fa6518be42be3fe9049d50b3c
   - enabled: 1
-    path: Assets/Scenes/2.0 Build/Intro.unity
-    guid: a26204a350115474c8fe772b2dcbe09d
+    path: Assets/Scenes/2.0 Build/Mingame Riar.unity
+    guid: 6348fa7fe0ef8814083fc984c6143ae1
   - enabled: 1
-    path: Assets/Scenes/2.0 Build/tut1.unity
-    guid: 674c703fb5459df499f93233381d73dd
+    path: Assets/Scenes/2.0 Build/Riar newhighscore.unity
+    guid: 1d68b7febe89d5244875a50989872157
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/Riar Game over.unity
+    guid: 9ab84e3174265de43812ad9df6e5662e
+  - enabled: 1
+    path: Assets/Minigame faren/Faren minigame.unity
+    guid: 45d50bc7fb1bfcb4185592f480409684
+  - enabled: 1
+    path: Assets/Minigame faren/Faren NewHighscore.unity
+    guid: d3a380dd3688be240a355288d5818f70
+  - enabled: 1
+    path: Assets/Minigame faren/Faren GameOver.unity
+    guid: 7bcd564be41c98e4d9cc31fa91d4a319
   m_configObjects: {}
