@@ -21,13 +21,13 @@ public class MinigameHighScoreSaveData
 [System.Serializable]
 public class MinigameHighScores : ScriptableObject
 {
+    public string saveFileName = "default.json";
     public int numScores = 10;
     public MinigameHighscore[] inspectorScores;
     //static LinkedList<MinigameHighscore> static_scorelist;
     LinkedList<MinigameHighscore> scores;
     [SerializeField]
     static public int lastScore;
-    string saveFilename = "papaya.json";
 
     void OnEnable()
     {
@@ -36,7 +36,7 @@ public class MinigameHighScores : ScriptableObject
         if (scores == null)
         {    
             Debug.Log("Reinitialising scores");
-            MinigameHighScoreSaveData loadedScores = LoadScores(saveFilename);
+            MinigameHighScoreSaveData loadedScores = LoadScores(saveFileName);
             if (loadedScores != null)
                 InitScores(loadedScores.scores);
             else
@@ -94,7 +94,7 @@ public class MinigameHighScores : ScriptableObject
         {
             inspectorScores = new MinigameHighscore[numScores];
         }
-        SaveScores(saveFilename);
+        SaveScores(saveFileName);
     }
 
     public bool IsScoreHighEnough(int score)
@@ -177,8 +177,8 @@ public class MinigameHighScores : ScriptableObject
         //MinigameHighscore[] scoresarray = new MinigameHighscore[numScores];
         //scores.CopyTo(scoresarray, 0);
         //return scoresarray;
-        SaveScores(saveFilename);
-        MinigameHighScoreSaveData load = LoadScores(saveFilename);
+        SaveScores(saveFileName);
+        MinigameHighScoreSaveData load = LoadScores(saveFileName);
         if (load != null)
         {
             return load.scores;

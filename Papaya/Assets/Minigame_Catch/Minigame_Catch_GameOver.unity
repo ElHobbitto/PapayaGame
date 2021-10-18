@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscoreText: {fileID: 532351395}
-  highScoreData: {fileID: 11400000, guid: 4e28ec441a71815499f08ba6ce089ed3, type: 2}
+  highScoreData: {fileID: 11400000, guid: 5c27c4fd60aa4ed4fadc6736a1775a24, type: 2}
 --- !u!114 &39599177
 MonoBehaviour:
   m_ObjectHideFlags: 0

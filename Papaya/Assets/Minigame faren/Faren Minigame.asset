@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ad8a67679fc444cb7638127e3e9c93, type: 3}
   m_Name: Faren Minigame
   m_EditorClassIdentifier: 
+  saveFileName: soup.json
   numScores: 10
   inspectorScores:
+  - name: lml
+    score: 6300
+  - name: klm
+    score: 4800
+  - name: cjm
+    score: 4200
+  - name: cjm
+    score: 2100
   - name: 
     score: 1200
   - name: 
@@ -26,11 +35,3 @@ MonoBehaviour:
     score: 400
   - name: 
     score: 400
-  - name: 
-    score: 100
-  - name: 
-    score: 100
-  - name: 
-    score: 100
-  - name: 
-    score: 100

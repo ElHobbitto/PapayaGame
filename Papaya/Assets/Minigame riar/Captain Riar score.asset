@@ -12,25 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ad8a67679fc444cb7638127e3e9c93, type: 3}
   m_Name: Captain Riar score
   m_EditorClassIdentifier: 
+  saveFileName: Icecream.json
   numScores: 10
   inspectorScores:
+  - name: lml
+    score: 6300
+  - name: LMB
+    score: 4900
+  - name: klm
+    score: 4800
+  - name: cjm
+    score: 4200
+  - name: abc
+    score: 2600
+  - name: lmp
+    score: 2500
+  - name: cjm
+    score: 2100
   - name: 
-    score: 2000
+    score: 1200
   - name: 
     score: 1000
   - name: 
     score: 800
-  - name: 
-    score: 400
-  - name: 
-    score: 400
-  - name: 
-    score: 400
-  - name: 
-    score: 100
-  - name: 
-    score: 100
-  - name: 
-    score: 100
-  - name: 
-    score: 100
