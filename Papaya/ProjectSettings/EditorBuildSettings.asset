@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Minigame faren/Faren GameOver.unity
     guid: 7bcd564be41c98e4d9cc31fa91d4a319
+  - enabled: 1
+    path: Assets/Scenes/2.0 Build/Minigame Menu.unity
+    guid: 7dd62fe6666dccc48981a68b4dadb8d1
   m_configObjects: {}
