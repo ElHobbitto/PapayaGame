@@ -2336,6 +2336,48 @@ MonoBehaviour:
       image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
     - name: Thinking
       image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
+  - characterName: Riar
+    uiImageToChange: {fileID: 482045206}
+    expressions:
+    - name: Determined
+      image: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
+    - name: Happy
+      image: {fileID: 21300000, guid: 11eefb536d729b0498d8d95d142bc2fd, type: 3}
+    - name: Embarrassed
+      image: {fileID: 21300000, guid: 1d2aa742852d37f4c96e79f434566435, type: 3}
+    - name: Blushing
+      image: {fileID: 21300000, guid: d9a6dd11986c12d4488688a8b3962521, type: 3}
+    - name: BlushingLess
+      image: {fileID: 21300000, guid: 248bb6b9d8c28f248a41bd90eb68651f, type: 3}
+    - name: EmbarrassedLess
+      image: {fileID: 21300000, guid: 1055ea27bea41a847a78cbd16e00fb1b, type: 3}
+    - name: Sad
+      image: {fileID: 21300000, guid: 20261f6f35bce0648937194f2d8cf74c, type: 3}
+    - name: Annoyed
+      image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
+    - name: Thinking
+      image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
+  - characterName: Farren
+    uiImageToChange: {fileID: 482045206}
+    expressions:
+    - name: Determined
+      image: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
+    - name: Happy
+      image: {fileID: 21300000, guid: 11eefb536d729b0498d8d95d142bc2fd, type: 3}
+    - name: Embarrassed
+      image: {fileID: 21300000, guid: 1d2aa742852d37f4c96e79f434566435, type: 3}
+    - name: Blushing
+      image: {fileID: 21300000, guid: d9a6dd11986c12d4488688a8b3962521, type: 3}
+    - name: BlushingLess
+      image: {fileID: 21300000, guid: 248bb6b9d8c28f248a41bd90eb68651f, type: 3}
+    - name: EmbarrassedLess
+      image: {fileID: 21300000, guid: 1055ea27bea41a847a78cbd16e00fb1b, type: 3}
+    - name: Sad
+      image: {fileID: 21300000, guid: 20261f6f35bce0648937194f2d8cf74c, type: 3}
+    - name: Annoyed
+      image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
+    - name: Thinking
+      image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
 --- !u!4 &2114413778
 Transform:
   m_ObjectHideFlags: 0
