@@ -134,11 +134,10 @@ GameObject:
   - component: {fileID: 34711507}
   - component: {fileID: 34711511}
   - component: {fileID: 34711510}
-  - component: {fileID: 34711509}
   - component: {fileID: 34711508}
   - component: {fileID: 34711512}
   m_Layer: 5
-  m_Name: GaelynButton
+  m_Name: Farren Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,15 +152,15 @@ RectTransform:
   m_GameObject: {fileID: 34711506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -4.6894803, y: 5.5577493, z: 5.922344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1974796939}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 606, y: 179}
-  m_SizeDelta: {x: 126.3422, y: 140.2587}
+  m_AnchoredPosition: {x: 628.054, y: 169.2}
+  m_SizeDelta: {x: 663.8903, y: 741.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34711508
 MonoBehaviour:
@@ -178,120 +177,36 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Gaelyn:Happy|Papaya:Determined|Gaelyn: \nAnd that\u2019s how it\u2019s properly
-      crafted. So simple even a drunken Ifrit could make one. \r\n"
-    - "Gaelyn:Happy|Papaya:Annoyed|Papaya:\n Wait so which side does the cloud butter
-      go on?"
-    - "Gaelyn:Miffed|Papaya:Annoyed|Gaelyn: \nBoth sides you absolute banana. "
-    - "Gaelyn:Miffed|Papaya:Happy|Papaya:\n Right . . . But how do you know how much
-      night cheese to put on every time? "
-    - "Gaelyn:ReallyAnnoyed|Papaya:Happy|Gaelyn: \nFor the love of- "
-    - "Gaelyn:Miffed|Papaya:Determined|Gaelyn:\n Okay, here is what you\u2019re going
-      to do. This is a map of Anvrandt on which I\u2019ve marked a set of locations
-      I want you to visit. "
-    - 'Papaya:Annoyed|Gaelyn:Miffed|Gaelyn:
+    - "Gaelyn:Happy|Papaya:Determined|???: \nHey you! Stop right there!  \n"
+    - "Gaelyn:Happy|Papaya:Annoyed|???: \nWhat in the blazes do you think you\u2019re
+      doin\u2019 \u2018ere? "
+    - "Gaelyn:Miffed|Papaya:Annoyed|Papaya: \nWh-What do you mean?  "
+    - "Gaelyn:Miffed|Papaya:Happy|???: \nState your name and business.  "
+    - "Gaelyn:ReallyAnnoyed|Papaya:Happy|Papaya: \nPapaya, I\u2019m heading into
+      Arden on a journey.  "
+    - "Gaelyn:Miffed|Papaya:Determined|???: \nThe border between Seranyr and Arden
+      is closed, son.  "
+    - "Papaya:Annoyed|Gaelyn:Miffed|Papaya: \nWhat? Why? Did something happen?  "
+    - "Papaya:Determined|Gaelyn:Miffed|???: \nHave you been livin\u2019 with your
+      head under a rock or did no one tell you about th\u2019 war?  "
+    - "Papaya:Happy|Gaelyn:Miffed|Papaya: \nI don\u2019t think so. It would be a
+      bit hard to cook with a rock on my head. "
+    - "Papaya:Happy|Gaelyn:Cross|???:\nArcher\u2019s Spirit-  "
+    - "Papaya:Happy|Gaelyn:Cross|???:\nDo y\u2019really not know what I\u2019m talking
+      about, son?  "
+    - 'Papaya:Happy|Gaelyn:Cross|Papaya:
 
-      Each location marks a centre of
-      cuisine around Anvrandt in which you will observe and learn the methods and
-      recipes of master chefs, recording all of which in your recipe book. '
-    - "Papaya:Determined|Gaelyn:Miffed|Gaelyn:\n Once you have filled its pages and
-      understand how much night cheese to put on every time, then and only then will
-      I allow you to return. Do you understand? "
-    - "Papaya:Happy|Gaelyn:Miffed|Papaya: \nYes sir!  "
-    - "Papaya:Happy|Gaelyn:Cross|Gaelyn:\n What are you still waiting around for?
-      Go!"
---- !u!114 &34711509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34711506}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 34711510}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 34711508}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
-        m_MethodName: TriggerDialogue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 34711512}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OFF
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1230329413}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      Uhhhh.  '
+    - "Papaya:Happy|Gaelyn:Cross|???: \nY\u2019know what, it doesn\u2019t matter.
+      Th\u2019 border is closed. No one gets through without my permission.  "
+    - "Papaya:Happy|Gaelyn:Cross|Papaya: \nWho are you?  "
+    - "Papaya:Happy|Gaelyn:Cross|Captain Riar: \nCaptain Riar of the Northern Arden
+      Guard, charged with the protection of the Northern Border.  "
+    - "Papaya:Happy|Gaelyn:Cross|Papaya: \nOh . . .  "
+    - "Papaya:Happy|Gaelyn:Cross|Papaya: \nOh! Could I cook you something? I\u2019m
+      learning how to cook and I can smell someone cooking. You must be hungry, right?  "
+    - "Papaya:Happy|Gaelyn:Cross|Captain Riar: \nHmph. \u2018Suppose it is rather
+      cold out today. Try this dish on for size.  "
 --- !u!114 &34711510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,7 +227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee399c57af2187442a5831918859231b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3db8ebab42e107d459bc5e1e86c5f49e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -349,244 +264,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &115881356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 115881357}
-  - component: {fileID: 115881362}
-  - component: {fileID: 115881361}
-  - component: {fileID: 115881360}
-  - component: {fileID: 115881359}
-  - component: {fileID: 115881358}
-  m_Layer: 5
-  m_Name: 'Start dialogue '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &115881357
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 3, z: 4}
-  m_Children: []
-  m_Father: {fileID: 1974796939}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 729.15, y: -235}
-  m_SizeDelta: {x: 74.3937, y: 62.8452}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &115881358
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0306160fd1b533a4dac7630ec9b6a3c5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &115881359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed2df648acd2144988de52b7b94c9f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: 
-    sentences:
-    - "Gaelyn:Happy|Papaya:Determined|Gaelyn: \nAnd that\u2019s how it\u2019s properly
-      crafted. So simple even a drunken Ifrit could make one. \r\n"
-    - "Gaelyn:Happy|Papaya:Annoyed|Papaya:\n Wait so which side does the cloud butter
-      go on?"
-    - "Gaelyn:Miffed|Papaya:Annoyed|Gaelyn: \nBoth sides you absolute banana. "
-    - "Gaelyn:Miffed|Papaya:Happy|Papaya:\n Right . . . But how do you know how much
-      night cheese to put on every time? "
-    - "Gaelyn:ReallyAnnoyed|Papaya:Happy|Gaelyn: \nFor the love of- "
-    - "Gaelyn:Miffed|Papaya:Determined|Gaelyn:\n Okay, here is what you\u2019re going
-      to do. This is a map of Anvrandt on which I\u2019ve marked a set of locations
-      I want you to visit. "
-    - 'Papaya:Annoyed|Gaelyn:Miffed|Gaelyn:
-
-      Each location marks a centre of
-      cuisine around Anvrandt in which you will observe and learn the methods and
-      recipes of master chefs, recording all of which in your recipe book. '
-    - "Papaya:Determined|Gaelyn:Miffed|Gaelyn:\n Once you have filled its pages and
-      understand how much night cheese to put on every time, then and only then will
-      I allow you to return. Do you understand? "
-    - "Papaya:Happy|Gaelyn:Miffed|Papaya: \nYes sir!  "
-    - "Papaya:Happy|Gaelyn:Cross|Gaelyn:\n What are you still waiting around for?
-      Go!"
---- !u!114 &115881360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 115881361}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 115881359}
-        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
-        m_MethodName: TriggerDialogue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 115881358}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: OFF
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1230329413}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 115881356}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &115881361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65b1356d684aa6c46ba03cb99e8d1ed1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &115881362
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115881356}
-  m_CullTransparentMesh: 0
 --- !u!224 &230894794 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3575542894105281999, guid: 6cd93b19fe5c3e749883ff1f7f1602e8, type: 3}
@@ -913,7 +590,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tut1
+          m_StringArgument: GAME END
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &416010304
@@ -936,7 +613,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ca91206955eb1446aa44587bf9e9f76, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 522f5ef7a1903694c883f5e945415cd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1099,7 +776,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b6f82f18d19a1041b5300ef41870e97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1516,8 +1193,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -22.192, y: 0.000022888}
+  m_SizeDelta: {x: 93.8059, y: 72.608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &762280104
 MonoBehaviour:
@@ -1539,9 +1216,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 49835cc0f4898bc4096d7c79797a76e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a301b242783a4b4b9e50603bb7d1115, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2353,7 +2030,7 @@ RectTransform:
   - {fileID: 6448456600308418002}
   - {fileID: 1948598954}
   - {fileID: 1996383904}
-  - {fileID: 115881357}
+  - {fileID: 2066945602}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2499,6 +2176,253 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051832603}
   m_CullTransparentMesh: 0
+--- !u!1 &2066945601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2066945602}
+  - component: {fileID: 2066945607}
+  - component: {fileID: 2066945606}
+  - component: {fileID: 2066945605}
+  - component: {fileID: 2066945604}
+  - component: {fileID: 2066945603}
+  m_Layer: 5
+  m_Name: Start Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2066945602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 3, z: 4}
+  m_Children: []
+  m_Father: {fileID: 1974796939}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 729.15, y: -235}
+  m_SizeDelta: {x: 74.3937, y: 62.8452}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &2066945603
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0306160fd1b533a4dac7630ec9b6a3c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2066945604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed2df648acd2144988de52b7b94c9f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Farren: F10|Papaya:Determined|Papaya: \nAre you feeling better now?\n"
+    - "Farren: F4|Papaya:Determined|???: \nMuch.\n"
+    - "Farren: F4|Papaya:Determined|Papaya: \nSooo . . . What happened?  \n"
+    - "Farren: F3|Papaya:Determined|???: \nNaught that you need to know of.  \n"
+    - "Farren: F3|Papaya:Thinking|Papaya: \nOh . . .  \n"
+    - "Farren: F4|Papaya:Thinking|???: \n*Sigh*\n"
+    - "Farren: F6|Papaya:Thinking|Faren: \nThe name is Faren, if you must know. Like
+      most of the Unburnt, I was . . . displaced from my home by the Seraphs. Nasty
+      war that was. A Seraph is still on my trail as we speak.  \n"
+    - "Farren: F6|Papaya:Happy|Papaya: \nOh! You\u2019re the one Captain Riar warned
+      me about!  \n"
+    - "Farren: F5|Papaya:Happy|Faren: \n. . .  \n"
+    - "Farren: F6|Papaya:Happy|Faren: \nI suppose so.  \n"
+    - "Farren: F6|Papaya:Determined|Papaya: \nI don\u2019t see why I should be wary.
+      You\u2019re nic- well- not mean.  \n"
+    - "Farren: F6|Papaya:Determined|Faren: \nI\u2019ll take that as a complement. 
+      \n"
+    - "Farren: F3|Papaya:Determined|Faren: \nNow if you\u2019ll excuse me, if you
+      were able to find my present location I have no doubt that Seraph will find
+      me soon enough and trust me, you do not want to be around when she does.  "
+    - "Farren: F3|Papaya:Determined|Papaya: \nIs there some way I can help?  \n"
+    - "Farren: F6|Papaya:Determined|Faren: \nPapaya have you ever met a Seraph? 
+      \n"
+    - "Farren: R10|Papaya:Annoyed|Papaya: \nNo . . . ?  \n"
+    - "Farren: F6|Papaya:Annoyed|Faren: \nThen good for you. The longer you maintain
+      that luck the better off you\u2019ll be for it.  \n"
+    - "Farren: F6|Papaya:Annoyed|Papaya: \nBut-  \n"
+    - "Farren: F4|Papaya:Annoyed|Faren: \nIf you wish to break that streak then by
+      all means stay, but if not, leave.\n"
+    - "Farren: F4|Papaya:Sad|Papaya: \nOkay okay! As long as I get to take that recipe
+      with me.  \n"
+    - "Farren: F10|Papaya:Sad|Faren: \nI suppose it is only fair. That is of Unburnt
+      creation you know, I couldn\u2019t tell you the effect it would have on anyone
+      other than an Unburnt but at the very least it would cure a bad headache. 
+      \n"
+    - "Farren: F10|Papaya:Happy|Papaya: \nI\u2019ll keep that in mind. Thanks! \n"
+    - "Farren: F1|Papaya:Happy|Faren: \nI must give you your dues where it is owed.
+      If you had not chosen this inopportune time to wander in on my hiding spot,
+      I wouldn\u2019t have the head-start you have afforded me. I doubt I would\u2019ve
+      had the strength to make that soup . . .  "
+    - "Farren: F1|Papaya:BlushingLess|Papaya: \nOnly doing what I could to help! 
+      \n"
+    - "Farren: F10|Papaya:BlushingLess|Faren: It is much appreciated now GO!  \n"
+--- !u!114 &2066945605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2066945606}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2066945604}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2066945603}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OFF
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2066945601}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1230329413}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &2066945606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 65b1356d684aa6c46ba03cb99e8d1ed1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2066945607
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066945601}
+  m_CullTransparentMesh: 0
 --- !u!1 &2114413776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,7 +2454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterExpressions:
   - characterName: Gaelyn
-    uiImageToChange: {fileID: 34711510}
+    uiImageToChange: {fileID: 0}
     expressions:
     - name: Base
       image: {fileID: 21300000, guid: 849bde5e45d7dde41b7e7cd7ceb42282, type: 3}
@@ -2576,47 +2500,51 @@ MonoBehaviour:
     - name: Thinking
       image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
   - characterName: Riar
-    uiImageToChange: {fileID: 482045206}
+    uiImageToChange: {fileID: 34711510}
     expressions:
-    - name: Determined
-      image: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
-    - name: Happy
-      image: {fileID: 21300000, guid: 11eefb536d729b0498d8d95d142bc2fd, type: 3}
-    - name: Embarrassed
-      image: {fileID: 21300000, guid: 1d2aa742852d37f4c96e79f434566435, type: 3}
-    - name: Blushing
-      image: {fileID: 21300000, guid: d9a6dd11986c12d4488688a8b3962521, type: 3}
-    - name: BlushingLess
-      image: {fileID: 21300000, guid: 248bb6b9d8c28f248a41bd90eb68651f, type: 3}
-    - name: EmbarrassedLess
-      image: {fileID: 21300000, guid: 1055ea27bea41a847a78cbd16e00fb1b, type: 3}
-    - name: Sad
-      image: {fileID: 21300000, guid: 20261f6f35bce0648937194f2d8cf74c, type: 3}
-    - name: Annoyed
-      image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
-    - name: Thinking
-      image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
+    - name: R1
+      image: {fileID: 21300000, guid: a2949e70a541c7c42a3ede9886a663c1, type: 3}
+    - name: R2
+      image: {fileID: 21300000, guid: 7c3cbc48a91cdc349b8a77901bf0e57c, type: 3}
+    - name: R3
+      image: {fileID: 21300000, guid: 66c562c661a6e1b49ab9f7ed0107df80, type: 3}
+    - name: R4
+      image: {fileID: 21300000, guid: 6e39ad14691de81459c176f5aadbd630, type: 3}
+    - name: R5
+      image: {fileID: 21300000, guid: e2a9c722f1051b742b564c84e4922acb, type: 3}
+    - name: R6
+      image: {fileID: 21300000, guid: 62bffe35615f4ed4abfa73f2b3b93cc3, type: 3}
+    - name: R7
+      image: {fileID: 21300000, guid: 902187279f7af8e49a9e3687572cc9c5, type: 3}
+    - name: R8
+      image: {fileID: 21300000, guid: ec9f6edd75cd3f146a0f8ee163be7e9c, type: 3}
+    - name: R9
+      image: {fileID: 21300000, guid: 5c947d197c75bd94781218d9579e0208, type: 3}
+    - name: 'Riar Emote '
+      image: {fileID: 0}
   - characterName: Farren
-    uiImageToChange: {fileID: 482045206}
+    uiImageToChange: {fileID: 34711510}
     expressions:
-    - name: Determined
-      image: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
-    - name: Happy
-      image: {fileID: 21300000, guid: 11eefb536d729b0498d8d95d142bc2fd, type: 3}
-    - name: Embarrassed
-      image: {fileID: 21300000, guid: 1d2aa742852d37f4c96e79f434566435, type: 3}
-    - name: Blushing
-      image: {fileID: 21300000, guid: d9a6dd11986c12d4488688a8b3962521, type: 3}
-    - name: BlushingLess
-      image: {fileID: 21300000, guid: 248bb6b9d8c28f248a41bd90eb68651f, type: 3}
-    - name: EmbarrassedLess
-      image: {fileID: 21300000, guid: 1055ea27bea41a847a78cbd16e00fb1b, type: 3}
-    - name: Sad
-      image: {fileID: 21300000, guid: 20261f6f35bce0648937194f2d8cf74c, type: 3}
-    - name: Annoyed
-      image: {fileID: 21300000, guid: 8d68d5f67376d9e4b8c18a8bd03ed0ef, type: 3}
-    - name: Thinking
-      image: {fileID: 21300000, guid: c8dd4cca726456e44aeea5f80d096480, type: 3}
+    - name: F1
+      image: {fileID: 21300000, guid: 50a124c3dbfdd694c878678bce73540d, type: 3}
+    - name: F2
+      image: {fileID: 21300000, guid: 50d76b86bfbf9bd4aa601b615e57cd6e, type: 3}
+    - name: F3
+      image: {fileID: 21300000, guid: 1bae45380670cd049aa206b50c56b888, type: 3}
+    - name: F4
+      image: {fileID: 21300000, guid: 3c3d47e34797605429dbfb718abce07e, type: 3}
+    - name: F5
+      image: {fileID: 21300000, guid: bb00cb6dff0cda14b8b34a037da4d5da, type: 3}
+    - name: F6
+      image: {fileID: 21300000, guid: 576ace695b755fb4dbcee0935b45d62f, type: 3}
+    - name: F7
+      image: {fileID: 21300000, guid: aabc813b6aa729f42bfaa937d67186c3, type: 3}
+    - name: F8
+      image: {fileID: 21300000, guid: 25c87609fa04ecf40bc515511214b65d, type: 3}
+    - name: F9
+      image: {fileID: 21300000, guid: fb830f003210cc04fbc20f14c759e6cf, type: 3}
+    - name: F10
+      image: {fileID: 21300000, guid: 3db8ebab42e107d459bc5e1e86c5f49e, type: 3}
 --- !u!4 &2114413778
 Transform:
   m_ObjectHideFlags: 0
@@ -3865,6 +3793,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1974796939}
     m_Modifications:
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 183.9903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 86.0448
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -203.85844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098408788689501, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64.50341
+      objectReference: {fileID: 0}
     - target: {fileID: 7128098409158212740, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3892,6 +3848,10 @@ PrefabInstance:
     - target: {fileID: 7128098409589260886, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128098409589260886, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 7128098409589260887, guid: 754676e338f51b0459742b2a95b5fc84, type: 3}
       propertyPath: m_SizeDelta.y

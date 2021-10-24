@@ -312,7 +312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee399c57af2187442a5831918859231b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 849bde5e45d7dde41b7e7cd7ceb42282, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -423,25 +423,27 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Gaelyn:Happy|Papaya:Determined|Gaelyn: \nAnd that\u2019s how it\u2019s properly
-      crafted. So simple even a drunken Ifrit could make one. \r\n"
+    - "Gaelyn:Happy|Papaya:Determined|Gaelyn:\nAnd that\u2019s how it\u2019s properly
+      crafted. So simple even a drunken Ifrit could make one.  \n"
     - "Gaelyn:Happy|Papaya:Annoyed|Papaya:\n Wait so which side does the cloud butter
       go on?"
     - "Gaelyn:Miffed|Papaya:Annoyed|Gaelyn: \nBoth sides you absolute banana. "
     - "Gaelyn:Miffed|Papaya:Happy|Papaya:\n Right . . . But how do you know how much
       night cheese to put on every time? "
     - "Gaelyn:ReallyAnnoyed|Papaya:Happy|Gaelyn: \nFor the love of- "
-    - "Gaelyn:Miffed|Papaya:Determined|Gaelyn:\n Okay, here is what you\u2019re going
-      to do. This is a map of Anvrandt on which I\u2019ve marked a set of locations
-      I want you to visit. "
+    - "Gaelyn:Miffed|Papaya:Determined|Gaelyn:\nOkay, here is what you\u2019re going
+      to do. In your recipe book I\u2019ve written down a list of places I want you
+      to visit.  "
     - 'Papaya:Annoyed|Gaelyn:Miffed|Gaelyn:
 
-      Each location marks a centre of
-      cuisine around Anvrandt in which you will observe and learn the methods and
-      recipes of master chefs, recording all of which in your recipe book. '
-    - "Papaya:Determined|Gaelyn:Miffed|Gaelyn:\n Once you have filled its pages and
-      understand how much night cheese to put on every time, then and only then will
-      I allow you to return. Do you understand? "
+      Each place is a centre of cuisine
+      around Anvrandt in which you will observe and learn the methods and recipes
+      of master chefs, recording all of which in the same book. '
+    - 'Papaya:Determined|Gaelyn:Miffed|Gaelyn:
+
+      Once you have filled its pages
+      and understand how much night cheese to put on every time, then and only then
+      will I allow you to return. Do you understand? '
     - "Papaya:Happy|Gaelyn:Miffed|Papaya: \nYes sir!  "
     - "Papaya:Happy|Gaelyn:Cross|Gaelyn:\n What are you still waiting around for?
       Go!"
@@ -913,7 +915,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tut1
+          m_StringArgument: Riar Dialogue
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &416010304
@@ -1099,7 +1101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b6f82f18d19a1041b5300ef41870e97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e028d70dbd9d7a49b06fb55f57bc42b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
