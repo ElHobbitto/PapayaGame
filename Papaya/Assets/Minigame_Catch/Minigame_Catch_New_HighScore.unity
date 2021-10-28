@@ -1092,7 +1092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4ac03b70b9ab34b9510e87e568b6f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscoreData: {fileID: 11400000, guid: 4e28ec441a71815499f08ba6ce089ed3, type: 2}
+  highscoreData: {fileID: 11400000, guid: 5c27c4fd60aa4ed4fadc6736a1775a24, type: 2}
   scoreText: {fileID: 1037322351}
   highScoreRoot: {fileID: 731058122}
   nameinput: {fileID: 1394541809}

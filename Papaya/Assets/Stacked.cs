@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Stacked : MonoBehaviour
 {
-  
+  public Animator anim;
    
     // Start is called before the first frame update
     void Start()
     {
-        
+        //anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -18,17 +18,13 @@ public class Stacked : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        
-     if(other.gameObject)
+        if (other.gameObject.CompareTag("CHEF") )
         {
-            //Score.ScoreValue += 10;
-            //Destroy(this.gameObject);
-            //other.gameObject.transform.SetParent(gameObject.transform);
-            //Debug.Log("PENG");
-            
-
+           anim.Play("static");
         }
+
+    
+
     }
-        
     
     }

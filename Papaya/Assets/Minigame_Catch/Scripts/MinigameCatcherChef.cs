@@ -19,9 +19,12 @@ public class MinigameCatcherChef : MonoBehaviour
     Vector3 plateInitialLocalPosition;
     GameObject[] stackObjects;
     public GameObject bonusPrefab;
+    //public Animation anim;
     // Start is called before the first frame update
+
     void Start()
     {
+        //anim = GetComponent<Animation>();
         AddScore(0);
         plateInitialLocalPosition = plate.transform.localPosition;
         stackObjects = new GameObject[maxInStack];
@@ -42,16 +45,22 @@ public class MinigameCatcherChef : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Good food"))
+        if (other.gameObject.CompareTag("Good food") )
         {
             Stack(other.gameObject);
             AddScore(spawner.gameParams.pointsPerFood);
+           //animator.enabled = false;
+        //anim.Stop();
+        
+
+            
         }
-        else if (other.gameObject.CompareTag("Bad food"))
+        else if (other.gameObject.CompareTag("Bad food") )
         {
             SceneManager.LoadScene(sceneToLoadOnLose);
             //Debug.Log("Oldscene reading  " + highScores.lastScore + " out of score data");
-            
+            //animator.enabled = false;
+            //anim.Stop();
         }
     }
 
