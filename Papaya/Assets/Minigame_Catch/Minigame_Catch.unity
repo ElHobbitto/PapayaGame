@@ -1152,6 +1152,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5c27c4fd60aa4ed4fadc6736a1775a24, type: 2}
     - target: {fileID: 4378497402443199957, guid: 5fb7442e55ba4ec4c8e3d3313ba68e74, type: 3}
+      propertyPath: maxInStack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378497402443199957, guid: 5fb7442e55ba4ec4c8e3d3313ba68e74, type: 3}
       propertyPath: bonusPrefab
       value: 
       objectReference: {fileID: 677589068299330852, guid: de2c977f24d2302488877284a901b8c2, type: 3}

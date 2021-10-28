@@ -99,7 +99,7 @@ public class MinigameCatcherChef : MonoBehaviour
             }
         }
         plate.transform.localPosition = plateInitialLocalPosition;
-        AddScore(100);
+        AddScore(0);
         inStack = 0;
         
     }

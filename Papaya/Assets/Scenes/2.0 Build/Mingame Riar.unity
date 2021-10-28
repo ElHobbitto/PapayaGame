@@ -1103,6 +1103,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2001492250}
     - target: {fileID: 8581447322442578207, guid: fe9b54f0eeb197e4a8f0b8742a523b78, type: 3}
+      propertyPath: maxInStack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581447322442578207, guid: fe9b54f0eeb197e4a8f0b8742a523b78, type: 3}
       propertyPath: plateUpwardsMovement
       value: 1
       objectReference: {fileID: 0}
