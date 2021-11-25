@@ -98,8 +98,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.055111, y: 7.156228, z: 0.2}
-  m_Center: {x: 0.025793629, y: 0.000008606358, z: 0}
+  m_Size: {x: 10.055111, y: 3.5216131, z: 0.2}
+  m_Center: {x: 0.025793629, y: -1.8172965, z: 0}
 --- !u!114 &7605287157082418519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388d687e596a1254abcbfe76fd9dc192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!114 &8700212403875922176
 MonoBehaviour:
   m_ObjectHideFlags: 0
